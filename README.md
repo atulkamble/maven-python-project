@@ -1,4 +1,10 @@
 # maven-python-project
+
+# Clone this Project
+```
+https://github.com/atulkamble/maven-python-project.git
+cd maven-python-project
+```
 Maven is primarily used for Java projects, but you can use it to manage and build projects in other languages, including Python, using plugins such as the `exec-maven-plugin`. Here's a basic guide on how to set up a Maven project to run Python code.
 
 ### 1. **Install Maven**
