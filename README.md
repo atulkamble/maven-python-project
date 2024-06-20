@@ -5,6 +5,13 @@
 https://github.com/atulkamble/maven-python-project.git
 cd maven-python-project
 ```
+# Prerequisite
+```
+sudo yum install python -y
+sudo yum install maven -y
+sudo yum install java -y
+sudo yum install tree -y
+```
 Maven is primarily used for Java projects, but you can use it to manage and build projects in other languages, including Python, using plugins such as the `exec-maven-plugin`. Here's a basic guide on how to set up a Maven project to run Python code.
 
 ### 1. **Install Maven**
