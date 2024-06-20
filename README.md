@@ -2,7 +2,7 @@
 
 # Clone this Project
 ```
-https://github.com/atulkamble/maven-python-project.git
+git clone https://github.com/atulkamble/maven-python-project.git
 cd maven-python-project
 ```
 # Prerequisite
