@@ -115,6 +115,7 @@ Execute the Maven build process to run your Python script:
 
 ```sh
 mvn compile
+mvn clean compile
 ```
 
 You should see the output of your Python script in the terminal:
