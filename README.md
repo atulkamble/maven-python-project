@@ -29,7 +29,7 @@ If Maven is not installed, you can download and install it from the [official Ma
 Open your terminal and create a new Maven project using the following command:
 
 ```sh
-mvn archetype:generate -DgroupId=com.example -DartifactId=my-python-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.example -DartifactId=maven-python-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 This will generate a basic Maven project structure.
@@ -39,7 +39,7 @@ This will generate a basic Maven project structure.
 Your project directory should look something like this:
 
 ```
-my-python-project
+maven-python-project
 │
 ├── pom.xml
 ├── src
@@ -68,7 +68,7 @@ Open the `pom.xml` file in the root directory and configure the `exec-maven-plug
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
-    <artifactId>my-python-project</artifactId>
+    <artifactId>maven-python-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -107,7 +107,7 @@ mvn compile
 You should see the output of your Python script in the terminal:
 
 ```sh
-[INFO] --- exec-maven-plugin:3.0.0:exec (default) @ my-python-project ---
+[INFO] --- exec-maven-plugin:3.0.0:exec (default) @ maven-python-project ---
 Hello, Maven with Python!
 ```
 
