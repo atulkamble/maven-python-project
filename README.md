@@ -3,8 +3,8 @@
 # Prerequisite
 ```
 sudo yum install python -y
-sudo yum install maven -y
 sudo yum install java -y
+sudo yum install maven -y
 sudo yum install tree -y
 ```
 
